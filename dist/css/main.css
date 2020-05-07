@@ -61,7 +61,7 @@ body {
   flex-wrap: wrap;
   justify-content: center; }
 
-.col-2 {
+.col-1 {
   width: 50%; }
 
 .button {
@@ -79,13 +79,19 @@ body {
     color: #339ecc; }
 
 h1 {
-  font-size: 3.2rem;
+  font-size: 3.4rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   line-height: 1.4;
   margin-top: 5rem; }
 
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2rem; }
+
 p {
+  font-size: 2rem;
   line-height: 1.6;
   margin-top: 4rem; }
 
@@ -116,12 +122,13 @@ p {
 .intro {
   padding: 0 35rem 16rem;
   background-color: #1c2431;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   .intro::after {
     content: "";
     background-image: url("../../dist/images/bg-curvy-desktop.svg");
     background-repeat: no-repeat;
-    background-position: 50% 120%;
+    background-position: 50% 105%;
     height: 100%;
     position: absolute;
     bottom: 0;
@@ -133,5 +140,17 @@ p {
     position: relative;
     z-index: 10; }
     .intro .container-intro p {
-      margin-left: 5rem;
-      margin-right: 5rem; }
+      padding: 0 6rem; }
+
+.main {
+  background-color: #181f2a;
+  padding: 0 21rem;
+  text-align: center; }
+  .main .container-img {
+    height: 9rem; }
+    .main .container-img img {
+      height: 100%; }
+  .main .col-1 {
+    padding: 0 7rem 9rem; }
+    .main .col-1 p {
+      font-size: 1.6rem; }
