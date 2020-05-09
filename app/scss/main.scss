@@ -261,6 +261,7 @@ p {
 .footer {
   background-color: $bg-footer-color;
   position: relative;
+  padding-bottom: 7rem;
 
   .container-access {
     position: absolute;
@@ -270,7 +271,7 @@ p {
     padding: 0 7rem 4rem;
     border-radius: 0.6rem;
     text-align: center;
-    box-shadow: 0 0 1rem 0 0 $bg-testimonials-color;
+    box-shadow: 0.2rem 0.2rem 0.6rem 0  $bg-intro-color;
 
     p {
       font-size: 1.6rem;
@@ -298,8 +299,8 @@ p {
     margin: 19rem 0 3rem;
   }
   
-  .col-3 {
-    width: 34%;
+  .col {
+    width: 70%;
     display: flex;
 
     img {
@@ -308,21 +309,46 @@ p {
     }
   }
 
+  .col-3 {
+    display: flex;
+
+    .container-social-icon {
+      display: inline-block;
+
+      .social-icon-link {
+        display: inline-block;
+        margin-bottom: 2.5rem;
+        padding: 0.7rem;
+        width: 3.5rem;
+        height: 3.5rem;
+        border: 0.1rem solid $white-color;
+        border-radius: 50%;
+
+        img {
+          margin: 0;
+        }
+      }
+    }
+  }
+
   .list {
+    width: 100%;
 
     .list-item {
       margin-bottom: 2.5rem;
+
+      .list-item-link {
+        color: $white-color;
+        text-decoration: none;
+      }
     }
   }
 
   p {
-    margin: 0;
+    margin: 0 7rem 0 0;
   }
 
   img {
     margin-right: 2.5rem;
-  }
-
-
-  
+  }  
 }
