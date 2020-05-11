@@ -235,7 +235,7 @@ p {
   .footer .col-1 {
     margin: 19rem 0 3rem; }
   .footer .col {
-    width: 70%;
+    width: 60%;
     display: flex; }
     .footer .col img {
       width: 1.3rem;
@@ -246,10 +246,11 @@ p {
       display: inline-block; }
       .footer .col-3 .container-social-icon .social-icon-link {
         display: inline-block;
+        margin-right: 1rem;
         margin-bottom: 2.5rem;
         padding: 0.7rem;
-        width: 3.5rem;
-        height: 3.5rem;
+        width: 4rem;
+        height: 4rem;
         border: 0.1rem solid white;
         border-radius: 50%; }
         .footer .col-3 .container-social-icon .social-icon-link img {
@@ -257,6 +258,7 @@ p {
   .footer .list {
     width: 100%; }
     .footer .list .list-item {
+      display: flex;
       margin-bottom: 2.5rem; }
       .footer .list .list-item .list-item-link {
         color: white;
@@ -265,3 +267,43 @@ p {
     margin: 0 7rem 0 0; }
   .footer img {
     margin-right: 2.5rem; }
+
+@media only screen and (max-width: 780px) {
+  .intro {
+    padding: 0 7rem 25rem; }
+    .intro::after {
+      background-image: url("../../dist/images/bg-curvy-mobile.svg");
+      background-size: cover; }
+    .intro .container-img {
+      position: relative;
+      z-index: 10; }
+  .container-secondary, .container-primary {
+    padding: 0 6rem; }
+  .col-2, .col-3 {
+    width: 100%; }
+  .main .row-testimonials .col-3 {
+    margin: 0 0 4rem 0; }
+  .main .row-testimonials .col-second {
+    margin: 0 0 4rem 0; }
+  .footer .container-access {
+    margin: 0 4rem; }
+    .footer .container-access p {
+      margin: 0; }
+    .footer .container-access input {
+      width: 100%;
+      margin-top: 5rem; }
+    .footer .container-access .button {
+      width: 100%; }
+  .footer .container-primary .col, .footer .container-primary .col-3 {
+    width: 100%;
+    flex-direction: column; }
+  .footer .container-primary .col .list:first-child {
+    margin-bottom: 2rem; }
+  .footer .container-primary .col-1 {
+    margin-top: 32rem; }
+  .footer .container-primary .list:first-child {
+    margin-bottom: 10rem; }
+  .footer .container-primary .list:nth-child(2) {
+    margin-bottom: 14rem; }
+  .footer .container-primary .container-social-icon {
+    text-align: center; } }

@@ -300,7 +300,7 @@ p {
   }
   
   .col {
-    width: 70%;
+    width: 60%;
     display: flex;
 
     img {
@@ -317,10 +317,11 @@ p {
 
       .social-icon-link {
         display: inline-block;
+        margin-right: 1rem;
         margin-bottom: 2.5rem;
         padding: 0.7rem;
-        width: 3.5rem;
-        height: 3.5rem;
+        width: 4rem;
+        height: 4rem;
         border: 0.1rem solid $white-color;
         border-radius: 50%;
 
@@ -335,6 +336,7 @@ p {
     width: 100%;
 
     .list-item {
+      display: flex;
       margin-bottom: 2.5rem;
 
       .list-item-link {
@@ -352,3 +354,5 @@ p {
     margin-right: 2.5rem;
   }  
 }
+
+@import "media";
