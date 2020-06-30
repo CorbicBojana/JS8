@@ -279,7 +279,7 @@ p {
     }
 
     input {
-      width: 70%;
+      width: calc(100% - 22rem);
       margin-right: 3rem;
       padding: 1.8rem 3rem;
       border-radius: 6rem;

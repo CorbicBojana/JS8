@@ -92,5 +92,22 @@
             }
         }
     }
+}
 
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+    
+    .intro {
+        padding: 0 25rem 16rem;
+    }
+
+    .container-secondary {
+        padding: 0 6rem;
+    }
+
+    .footer {
+
+        .container-access {
+            margin: 0 14rem;
+        }
+    }
 }
